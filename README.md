@@ -10,7 +10,7 @@ It's a zero-player game, but you can determine the rules! The game is a continuo
 4. **OThresh**: This is the overpopulation threshold that determines the number of neighbors above which a cell will die. This number should be at least the loneliness threshold and no greater than one less than the total number of neighbors for any given cell.
 5. **GenMin**: This is the minimum number of neighbors above which a dead cell will generate. This number should be greater than 0 and no more than GenMax.
 6. **GenMax**: This is the maximum number of neighbors below which a dead cell will generate. This number should be at least GenMin and no greater than one less the total number of neighbors for any given cell.
-7. You can toggle grid lines with *Toggle Grid Lines*. The default setting for an initialized game is to have grid lines.
+7. You can toggle grid lines with **Toggle Grid Lines**. The default setting for an initialized game is to have grid lines.
 8. **Edge Neighbor Behavior**: This determines how cells behave at the edges of the world.
   * A cell will consider off-grid neighbors to be alive if "**All Alive**" is selected.
   * A cell will consider off-grid neighbors to be dead if "**All Dead**" is selected.
