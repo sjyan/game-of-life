@@ -20,6 +20,6 @@ It's a zero-player game, but you can determine the rules! The game is a continuo
   * SHIFT-CLICK : Force a cell to generate.
   * ALT-CLICK : Force a cell to die.
 10. Click **Random Generate** to create a grid with randomly filled cells. Keep in mind that the automaton will be more sustainable if the radius is smaller and the grid is more populated. If the radius is smaller and the grid is sparse, you should expect the automaton to die within a few generations unless you adjust the radius.
-11. Click *Play/Pause* to see what happens! Toggle this button to pause the automaton at any generation. Click *Step* to see what happens generation by generation. Click *Reset* to empty the automaton and reset the generation counter back to 0. You can adjust the speed of generation with the *Animation Speed* slider.
+11. Click **Play/Pause** to see what happens! Toggle this button to pause the automaton at any generation. Click **Step** to see what happens generation by generation. Click **Reset** to empty the automaton and reset the generation counter back to 0. You can adjust the speed of generation with the **Animation Speed** slider.
 
 View here: http://htmlpreview.github.io/?https://github.com/sjyan/game-of-life/blob/master/conway.html
