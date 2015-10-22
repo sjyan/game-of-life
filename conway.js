@@ -49,7 +49,7 @@ $(document).ready(function () {
         if(currentGame != null) {
             currentGame.isRunning = false;
             currentGame.kill();
-            console.log("current game killed");
+            //console.log("current game killed");
         }
         
         currentGame = new GOL('#grid', width, height, radius, lThresh, oThresh, gMin, gMax);
@@ -104,7 +104,7 @@ $(document).ready(function () {
         if(currentGame != null) {
             currentGame.isRunning = false;
             currentGame.kill();
-            console.log("current game killed");
+            //console.log("current game killed");
         }
         
         currentGame = new GOL('#grid', width, height, radius, lThresh, oThresh, gMin, gMax);
@@ -122,7 +122,7 @@ $(document).ready(function () {
             var x = randArr[i].x; var y = randArr[i].y;
             currentGame.generateCell(x, y);
             currentGame.bitMap[x][y] = true;
-            console.log("generated cell " + x + ", " + y);
+            //console.log("generated cell " + x + ", " + y);
         }
         
         currentGame.generationCount.innerHTML = '0';
@@ -169,7 +169,7 @@ $(document).ready(function () {
         var oldGMax = currentGame.gmax;
         currentGame.isRunning = false;
         currentGame.kill();
-        console.log("current game killed");
+        //console.log("current game killed");
         
         currentGame = 
             new GOL('#grid', oldWidth, oldHeight, oldRadius, oldLThresh, oldOThresh, oldGMin, oldGMax);
